@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Impossible Runner" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Impossible_Runner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="allegro/include" />
+				</Compiler>
+				<Linker>
+					<Add library="allegro\lib\libaldat.a" />
+					<Add library="allegro\lib\liballd.a" />
+					<Add library="allegro\lib\liballd_s.a" />
+					<Add library="allegro\lib\liballeg.a" />
+					<Add library="allegro\lib\liballeg_s.a" />
+					<Add library="allegro\lib\liballp.a" />
+					<Add library="allegro\lib\liballp_s.a" />
+					<Add directory="allegro/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Impossible Runner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="camara.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="colision.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="global.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="inicia.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="inicia.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="mapa.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="menuAY.h" />
+		<Unit filename="menuEST.h" />
+		<Unit filename="menuJG.h" />
+		<Unit filename="menuOPC.h" />
+		<Unit filename="menuPJ.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="personaje.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

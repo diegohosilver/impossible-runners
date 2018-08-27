@@ -1,0 +1,2325 @@
+# depslib dependency file v1.0
+1437601029 source:c:\users\diego\desktop\tp final pro 2\tp final pro\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"disparos.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\alplatf.h
+
+1107317532 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\palette.h
+
+1138630656 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\al386vc.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\platform\al386wat.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\color.inl
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\matrix.inl
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\alcompat.h
+
+1036122984 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\tp final pro\allegro\include\allegro\inline\fix.inl
+
+1437337816 c:\users\diego\desktop\tp final pro 2\tp final pro\global.h
+	<cstdio>
+
+1416455228 c:\users\diego\desktop\tp final pro 2\tp final pro\disparos.h
+	<vector>
+
+1437519846 c:\users\diego\desktop\tp final pro 2\tp final pro\personaje.h
+
+1413585970 c:\users\diego\desktop\tp final pro 2\tp final pro\inicia.h
+
+1436997751 c:\users\diego\desktop\tp final pro 2\tp final pro\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 c:\users\diego\desktop\tp final pro 2\tp final pro\camara.h
+
+1437607040 c:\users\diego\desktop\tp final pro 2\tp final pro\colision.h
+	<fstream>
+
+1437515547 c:\users\diego\desktop\tp final pro 2\tp final pro\mapa.h
+	<fstream>
+
+1436918172 c:\users\diego\desktop\tp final pro 2\tp final pro\menupj.h
+
+1437609607 c:\users\diego\desktop\tp final pro 2\tp final pro\menujg.h
+
+1436994906 c:\users\diego\desktop\tp final pro 2\tp final pro\menuopc.h
+
+1437519793 c:\users\diego\desktop\tp final pro 2\tp final pro\menuay.h
+
+1437610361 source:c:\users\diego\desktop\tp final pro 2\impossible runners\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\alplatf.h
+
+1107317532 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\palette.h
+
+1138630656 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\al386vc.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\platform\al386wat.h
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\color.inl
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\matrix.inl
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\alcompat.h
+
+1036122984 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 c:\users\diego\desktop\tp final pro 2\impossible runners\allegro\include\allegro\inline\fix.inl
+
+1437337816 c:\users\diego\desktop\tp final pro 2\impossible runners\global.h
+	<cstdio>
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\personaje.h
+
+1413585970 c:\users\diego\desktop\tp final pro 2\impossible runners\inicia.h
+
+1436997751 c:\users\diego\desktop\tp final pro 2\impossible runners\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 c:\users\diego\desktop\tp final pro 2\impossible runners\camara.h
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\colision.h
+	<fstream>
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\mapa.h
+	<fstream>
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\menupj.h
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\menujg.h
+
+1436994906 c:\users\diego\desktop\tp final pro 2\impossible runners\menuopc.h
+
+1437610350 c:\users\diego\desktop\tp final pro 2\impossible runners\menuay.h
+
+1437656018 source:f:\impossible runners\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 f:\impossible runners\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 f:\impossible runners\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 f:\impossible runners\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 f:\impossible runners\allegro\include\allegro\platform\alplatf.h
+
+1107317532 f:\impossible runners\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 f:\impossible runners\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 f:\impossible runners\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 f:\impossible runners\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 f:\impossible runners\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 f:\impossible runners\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 f:\impossible runners\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 f:\impossible runners\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 f:\impossible runners\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 f:\impossible runners\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 f:\impossible runners\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 f:\impossible runners\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 f:\impossible runners\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 f:\impossible runners\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 f:\impossible runners\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 f:\impossible runners\allegro\include\allegro\palette.h
+
+1138630656 f:\impossible runners\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 f:\impossible runners\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 f:\impossible runners\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 f:\impossible runners\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 f:\impossible runners\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 f:\impossible runners\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 f:\impossible runners\allegro\include\allegro\platform\al386vc.h
+
+1110290126 f:\impossible runners\allegro\include\allegro\platform\al386wat.h
+
+1110290126 f:\impossible runners\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 f:\impossible runners\allegro\include\allegro\inline\color.inl
+
+1110290126 f:\impossible runners\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 f:\impossible runners\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 f:\impossible runners\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 f:\impossible runners\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 f:\impossible runners\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 f:\impossible runners\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 f:\impossible runners\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 f:\impossible runners\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 f:\impossible runners\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 f:\impossible runners\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 f:\impossible runners\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 f:\impossible runners\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 f:\impossible runners\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 f:\impossible runners\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 f:\impossible runners\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 f:\impossible runners\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 f:\impossible runners\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 f:\impossible runners\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 f:\impossible runners\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 f:\impossible runners\allegro\include\allegro\inline\matrix.inl
+
+1036122984 f:\impossible runners\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 f:\impossible runners\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 f:\impossible runners\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 f:\impossible runners\allegro\include\allegro\alcompat.h
+
+1036122984 f:\impossible runners\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 f:\impossible runners\allegro\include\allegro\inline\fix.inl
+
+1437656020 f:\impossible runners\global.h
+	<cstdio>
+
+1437656300 f:\impossible runners\personaje.h
+
+1413585970 f:\impossible runners\inicia.h
+
+1436997752 f:\impossible runners\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 f:\impossible runners\camara.h
+
+1437610352 f:\impossible runners\colision.h
+	<fstream>
+
+1437653598 f:\impossible runners\mapa.h
+	<fstream>
+
+1437610352 f:\impossible runners\menupj.h
+
+1437656034 f:\impossible runners\menujg.h
+
+1437653092 f:\impossible runners\menuopc.h
+
+1437610352 f:\impossible runners\menuay.h
+
+1437662436 source:h:\impossible runners\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 h:\impossible runners\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 h:\impossible runners\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 h:\impossible runners\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 h:\impossible runners\allegro\include\allegro\platform\alplatf.h
+
+1107317532 h:\impossible runners\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 h:\impossible runners\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 h:\impossible runners\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 h:\impossible runners\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 h:\impossible runners\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 h:\impossible runners\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 h:\impossible runners\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 h:\impossible runners\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 h:\impossible runners\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 h:\impossible runners\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 h:\impossible runners\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 h:\impossible runners\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 h:\impossible runners\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 h:\impossible runners\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 h:\impossible runners\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 h:\impossible runners\allegro\include\allegro\palette.h
+
+1138630656 h:\impossible runners\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 h:\impossible runners\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 h:\impossible runners\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 h:\impossible runners\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 h:\impossible runners\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 h:\impossible runners\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 h:\impossible runners\allegro\include\allegro\platform\al386vc.h
+
+1110290126 h:\impossible runners\allegro\include\allegro\platform\al386wat.h
+
+1110290126 h:\impossible runners\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 h:\impossible runners\allegro\include\allegro\inline\color.inl
+
+1110290126 h:\impossible runners\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 h:\impossible runners\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 h:\impossible runners\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 h:\impossible runners\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 h:\impossible runners\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 h:\impossible runners\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 h:\impossible runners\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 h:\impossible runners\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 h:\impossible runners\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 h:\impossible runners\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 h:\impossible runners\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 h:\impossible runners\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 h:\impossible runners\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 h:\impossible runners\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 h:\impossible runners\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 h:\impossible runners\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 h:\impossible runners\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 h:\impossible runners\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 h:\impossible runners\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 h:\impossible runners\allegro\include\allegro\inline\matrix.inl
+
+1036122984 h:\impossible runners\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 h:\impossible runners\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 h:\impossible runners\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 h:\impossible runners\allegro\include\allegro\alcompat.h
+
+1036122984 h:\impossible runners\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 h:\impossible runners\allegro\include\allegro\inline\fix.inl
+
+1437662420 h:\impossible runners\global.h
+	<cstdio>
+
+1437662588 h:\impossible runners\personaje.h
+
+1413585970 h:\impossible runners\inicia.h
+
+1436997752 h:\impossible runners\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 h:\impossible runners\camara.h
+
+1437610352 h:\impossible runners\colision.h
+	<fstream>
+
+1437653598 h:\impossible runners\mapa.h
+	<fstream>
+
+1437610352 h:\impossible runners\menupj.h
+
+1437656034 h:\impossible runners\menujg.h
+
+1437662428 h:\impossible runners\menuopc.h
+
+1437610352 h:\impossible runners\menuay.h
+
+1448828350 source:c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alplatf.h
+
+1107317532 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\palette.h
+
+1138630656 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386vc.h
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386wat.h
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\color.inl
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\matrix.inl
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\alcompat.h
+
+1036122984 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\fix.inl
+
+1437662420 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\global.h
+	<cstdio>
+
+1437662588 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\personaje.h
+
+1413585970 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\inicia.h
+
+1436997752 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\camara.h
+
+1448830297 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\colision.h
+	<fstream>
+
+1437653598 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\mapa.h
+	<fstream>
+
+1437610352 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\menupj.h
+
+1448831752 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\menujg.h
+
+1437662428 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\menuopc.h
+
+1437610352 c:\users\chris\desktop\impossible runners\impossible runners\impossible runner source code\menuay.h
+
+1448828352 source:h:\impossible runners\impossible runners\impossible runner source code\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuAY.h"
+
+1114381574 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alplatf.h
+
+1107317532 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\palette.h
+
+1138630656 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386vc.h
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386wat.h
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\color.inl
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\matrix.inl
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\alcompat.h
+
+1036122984 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 h:\impossible runners\impossible runners\impossible runner source code\allegro\include\allegro\inline\fix.inl
+
+1437662420 h:\impossible runners\impossible runners\impossible runner source code\global.h
+	<cstdio>
+
+1437662588 h:\impossible runners\impossible runners\impossible runner source code\personaje.h
+
+1413585970 h:\impossible runners\impossible runners\impossible runner source code\inicia.h
+
+1436997752 h:\impossible runners\impossible runners\impossible runner source code\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 h:\impossible runners\impossible runners\impossible runner source code\camara.h
+
+1448903500 h:\impossible runners\impossible runners\impossible runner source code\colision.h
+	<fstream>
+
+1437653598 h:\impossible runners\impossible runners\impossible runner source code\mapa.h
+	<fstream>
+
+1437610352 h:\impossible runners\impossible runners\impossible runner source code\menupj.h
+
+1448831754 h:\impossible runners\impossible runners\impossible runner source code\menujg.h
+
+1437662428 h:\impossible runners\impossible runners\impossible runner source code\menuopc.h
+
+1437610352 h:\impossible runners\impossible runners\impossible runner source code\menuay.h
+
+1448998317 source:c:\users\diego\desktop\impossible runners\impossible runner source code\main.cpp
+	<allegro.h>
+	<iostream>
+	"global.h"
+	"personaje.h"
+	"inicia.h"
+	"inicia.cpp"
+	"camara.h"
+	"colision.h"
+	"mapa.h"
+	"menuPJ.h"
+	"menuJG.h"
+	"menuOPC.h"
+	"menuEST.h"
+	"menuAY.h"
+
+1114381574 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1185140748 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1182719602 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/astdint.h"
+
+1185093520 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\alplatf.h
+
+1107317532 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182813286 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1151116410 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1151116410 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107317532 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\alosxcfg.h
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunixac.h"
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1142083144 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\unicode.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\config.h
+	"base.h"
+
+1090974802 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\debug.h
+	"base.h"
+
+1182009148 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\mouse.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\timer.h
+	"base.h"
+
+1102161390 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1073695796 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\joystick.h
+	"base.h"
+
+1005116808 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\palette.h
+
+1138630656 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1098006334 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107317532 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\fixed.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144566448 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386gcc.h
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386vc.h
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\platform\al386wat.h
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\color.inl
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1125283870 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144566448 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\compiled.h
+	"base.h"
+
+1105928090 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\text.h
+	"base.h"
+
+1165911276 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\font.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104452866 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\gui.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142748334 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\digi.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\stream.h
+	"base.h"
+
+1142748334 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\midi.h
+	"base.h"
+
+1149060164 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\file.h
+	"base.h"
+
+1110330016 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\lzss.h
+	"base.h"
+
+1136095788 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\datafile.h
+	"base.h"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130582098 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007267572 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\matrix.inl
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\quat.h
+	"base.h"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\3dmaths.inl
+
+1148187248 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\alcompat.h
+
+1036122984 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110290126 c:\users\diego\desktop\impossible runners\impossible runner source code\allegro\include\allegro\inline\fix.inl
+
+1449077224 c:\users\diego\desktop\impossible runners\impossible runner source code\global.h
+	<cstdio>
+
+1437662588 c:\users\diego\desktop\impossible runners\impossible runner source code\personaje.h
+
+1413585970 c:\users\diego\desktop\impossible runners\impossible runner source code\inicia.h
+
+1449106155 c:\users\diego\desktop\impossible runners\impossible runner source code\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1433966670 c:\users\diego\desktop\impossible runners\impossible runner source code\camara.h
+
+1449002217 c:\users\diego\desktop\impossible runners\impossible runner source code\colision.h
+	<fstream>
+
+1448993547 c:\users\diego\desktop\impossible runners\impossible runner source code\mapa.h
+	<fstream>
+
+1449015976 c:\users\diego\desktop\impossible runners\impossible runner source code\menupj.h
+
+1449023674 c:\users\diego\desktop\impossible runners\impossible runner source code\menujg.h
+
+1449106048 c:\users\diego\desktop\impossible runners\impossible runner source code\menuopc.h
+
+1449026073 c:\users\diego\desktop\impossible runners\impossible runner source code\menuay.h
+
+1449026073 c:\users\diego\desktop\impossible runners\impossible runner source code\menuest.h
+
